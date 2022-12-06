@@ -1,0 +1,27 @@
+body { background-color: rgb(21, 35, 35); 
+    font-family: 'Special Elite', cursive;
+
+}
+
+.btn { 
+
+    background-color: transparent; color: beige ;
+    font-size: 60px; border: none; margin: auto; display: block;
+    font-family: 'Special Elite', cursive;
+    
+}
+
+.btn:hover { cursor: pointer; color: deeppink;
+    font-family: 'Special Elite', cursive;
+}
+
+#demo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    text-align: center;
+    color: aliceblue;
+    font-size: 80px;
+}
+

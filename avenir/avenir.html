@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Avenir</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+   
+</head>
+
+
+<body>
+    
+<button class="btn"> How many years do you have left to live ? </button>
+<!-- onclick=" document.getElementById('demo') .innerHTML = getRndIteger (1,50)";  -->
+
+
+<p id="demo"></p>
+
+
+<img src="http://dl8.glitter-graphics.net/pub/1046/1046668m0thpcuyh2.gif" width=318 height=227 >
+<a  target=_blank></a>
+
+<script> 
+const mybtn = document.querySelector('.btn');
+const text = document.getElementById("demo");
+
+function getRndIteger(min, max){
+    let randomtruc = Math.floor(Math.random() * (max-min)) + min;
+    console.log(randomtruc);
+    text.innerHTML = randomtruc;
+}
+
+mybtn.addEventListener('click', () => {
+    console.log("btn clicked")
+    getRndIteger(1,100)
+})
+
+</script>
+
+
+</body>
+</html>
